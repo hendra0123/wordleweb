@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #B77272;
+    width: 100%;
+  }
+  
+  .inputKode {
+  
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    width: 200px;
+    position: absolute;
+    right: 0;
+  }
+  
+  .inputKode input {
+  
+    border: 1.5px solid black;
+    border-radius: 15px;
+    height: 20px;
+    background-color: transparent;
+    text-align: center;
+  
+  }
+  
+  .topnav p {
+    text-align: center;
+  
+  }
+  
+  .judul {
+    text-align: center;
+  
+  }
+  
+  .history {
+    margin-top: -40px;
+    padding-left: 10%;
+    position: absolute;
+    left: 0;
+  
+  }
+  
+  .historyBtn:hover {
+    background-color: grey;
+  }
+
+  .tabelFriend {
+    width: 70%;
+    height: 400px;
+    background-color: #B7C4CF;
+    margin-left: 15.4%;
+    margin-top: 1%;
+    border: 3px solid black;
+    border-radius: 20px;
+  }
+
+  .myid {
+     font-family: 'IBM Plex Mono', monospace; 
+     font-size: 17px;
+     margin-left: 2%;
+     margin-top: 0.3%;
+     position: absolute;
+  }
+
+  .inputID {
+    position: absolute;
+    width: 65%;
+    margin-top: 1%;
+    margin-left: 24.5%;
+  }
+
+  .inputID input {
+    text-align: center;
+    width: 30%;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+
+  .friendreq {
+    width: 14%;
+    height: 28px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #AEDA97;
+    margin-left: 77%;
+    margin-top: 2%;
+  }
+
+  .pemain5 {
+    width: 100%;
+    height: 55px;
+    margin-top: 2%;
+    background-color: #59AEDE;
+  }
+
+  .pemain5 .profile5 {
+    width: 4%;
+    height: 7%;
+    margin-top: 0.6%;
+    margin-left: 1.5%;
+    position: absolute;
+    background-color: #794B4B;
+  }
+
+  .pemain5 p {
+    position: absolute;
+    margin-left: 7%;
+    margin-top: 0.5%;
+    
+  }
+
+  .pemain5 .level5 {
+    width: 100px;
+    height: 12px;
+    background-color: #80D173;
+    border: 1px solid black;
+    margin-left: 7%;
+    margin-top: 2.5%;
+    position: absolute;
+  }
+  
+  .pemain5 .level5 p {
+    margin-left: 26%;
+    margin-top: -1%;
+    font-size: 12px;
+  }
+
+  .pemain5 .score5 {
+    margin-left: 20%;
+    margin-top: 1.4%;
+    width: 20%;
+    font-size: 15px;
+    position: absolute;
+  }
+
+  .pemain5 .rank5 {
+    margin-left: 37%;
+    margin-top: 1.4%;
+    width: 20%;
+    font-size: 15px;
+    position: absolute;
+  }
+
+  .pemain5 .add {
+    margin-left: 55%;
+    margin-top: 1%;
+    background-color: #E2C251;
+    width: 8%;
+    height: 30px;
+    position: absolute;
+    border-radius: 10px;
+    border: 1px solid black;
+  }
+  
+  
