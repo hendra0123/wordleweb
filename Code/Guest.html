@@ -4,24 +4,25 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styleGuest.css">
+    <script src="guestscript.js"></script>
 
 </head>
 
 <body>
 
     <div class="topnav">
-        <div class="inputKode">
-            <input type="text" name="kode" placeholder="Masukkan Kode Ruangan">
-        </div>
+
 
         <div class="judul">
-            <p>Wordle Mania</p>
+            <center>
+                <p>Wordle Mania</p>
+            </center>
         </div>
 
-        <div class="history">
-            <button class="historyBtn"
-                style="width: 120px; height: 30px; border-radius: 20px; border: 1.5px solid black; background-color: transparent;">History</button>
-        </div>
+        <a href="#wrab"><button class="login" onclick="openForm1()">Login</button></a>
+        <a href="#wrab2"><button class="signup" onclick="openForm2()">Sign Up</button></a>
+
+
     </div>
 
     <div class="player">
@@ -39,7 +40,7 @@
         <p style="margin-left: 2%; margin-top: 14.5%; position: absolute;">ID: 09232348</p>
     </div>
 
-    <button class="stranger">Play with Stranger</button>
+    <a href="Home.html"><button class="stranger">Play with Stranger</button></a>
     <button class="create">Create Room</button>
 
 
@@ -50,10 +51,61 @@
 
     <div class="friendlist">
         <p><b>Friend List</b></p>
-        
-        <center><p style="padding-top: 4%;"><b>You can't have friends if you are a guest :(</b></p></center>
 
-       
+        <center>
+            <p style="padding-top: 4%;"><b>You can't have friends if you are a guest :(</b></p>
+        </center>
+
+
+    </div>
+
+    <div href="" class="wrab" id="wrab">
+        <div class="bg-color">
+            <div class="modal" id="modal">
+                <a href=""><button style="margin-left: 94%;">x</button></a>
+                <h2 style="margin-top: -2%;">Login</h2>
+                <form action="" method="get" accept-charset="utf-8">
+                    <label for="">Email:</label>
+                    <input type="text" placeholder="Masukkan Email" id="name">
+                    <label for="">Password:</label>
+                    <input type="password" placeholder="Masukkan Password" id="sandi">
+                    <div class="forgot">
+                        <a href="#">
+                            <p>Forgot Password?</p>
+                        </a>
+                    </div>
+
+                    <a href="AddFriend.html?#wrab"><button type="submit" class="btn">Login</button></a>
+
+                    <div class="kesignup">
+                        <p>Don't Have an account? <a href="#wrab2" onclick="openForm2()">Sign Up</a> </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div href="" class="wrab2" id="wrab2">
+        <div class="bg-color">
+            <div class="modal2" id="modal2">
+                <a href=""><button style="margin-left: 94%;">x</button></a>
+                <h2 style="margin-top: -2%;">Sign Up</h2>
+                <form action="" method="get" accept-charset="utf-8">
+                    <label for="">Username:</label>
+                    <input type="text" placeholder="Masukkan username" id="username">
+                    <label for="">Email:</label>
+                    <input type="text" placeholder="Masukkan Email" id="name">
+                    <label for="">Password:</label>
+                    <input type="password" placeholder="Masukkan Password" id="sandi">
+
+                    <button type="submit" class="btn2">Create Account</button>
+
+                    <div class="kelogin">
+                        <p>Have an account? <a href="#wrab" onclick="openForm1()">Login</a> </p>
+                    </div>
+                </form>
+            </div>
+        </div>
     </div>
 
 </body>
