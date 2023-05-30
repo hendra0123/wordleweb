@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styleAddFriend.css">
+    <script src="addscript.js"></script>
     <title>Add Friend</title>
 </head>
+
 <body>
 
     <div class="topnav">
@@ -24,15 +27,19 @@
         </div>
     </div>
 
-    <center><b><p style="font-family: 'IBM Plex Mono', monospace; font-size: larger;">Add Friend</p></b></center>
+    <center><b>
+            <p style="font-family: 'IBM Plex Mono', monospace; font-size: larger;">Add Friend</p>
+        </b></center>
     <div class="tabelFriend">
-        <div class="myid"><p>My ID: 09232348</p></div>
-        
-        <div class="inputID">
-            <input type="text" name="kode" placeholder="Masukkan ID Pemain">
-        </div>
+        <p style="font-family: 'IBM Plex Mono', monospace; font-size: 17px;">My ID: 09232348</p>
 
-        <a href="#friendreq"><button class="friendreq"><b>Friend Request</b></button></a>
+
+        <input class="inputID" type="text" name="kode" placeholder="Masukkan ID Pemain">
+
+
+
+
+        <a href="#wrab"><button class="friendreq" onclick="openForm1()"><b>Friend Request</b></button></a>
 
         <div class="pemain5">
             <div class="profile5"></div>
@@ -53,8 +60,59 @@
 
             <a href="#"><button class="add"><b>Add Friend</b></button></a>
         </div>
-        
+
     </div>
-    
+
+    <div href="" class="wrab" id="wrab">
+        <div class="bg-color">
+            <div class="modal" id="modal">
+                <a href=""><button style="margin-left: 94%;">x</button></a>
+                <h2 style="margin-left:32%; margin-top: -3%; font-family: 'IBM Plex Mono', monospace;">Friend Request</h2>
+                <div class="list_friend">
+                    <div class="orang1">
+                        <div class="profile1"></div>
+
+                        <b><p>Pemain 1</p></b>
+            
+                        <div class="level1">
+                            <p>Level 99</p>
+                        </div>
+
+                        <img id="img1" src="/Code/images/Group 54.png" alt="">
+                        <img id="img2" src="/Code/images/Group 61.png" alt="">
+                    </div>
+                    
+
+                    <div class="orang2">
+                        <div class="profile2"></div>
+
+                        <b><p>Pemain 2</p></b>
+            
+                        <div class="level2">
+                            <p>Level 79</p>
+                        </div>
+
+                        <img id="img1" src="/Code/images/Group 54.png" alt="">
+                        <img id="img2" src="/Code/images/Group 61.png" alt="">
+                    </div>
+
+                    <div class="orang10">
+                        <div class="profile10"></div>
+
+                        <b><p>Pemain 10</p></b>
+            
+                        <div class="level10">
+                            <p>Level 59</p>
+                        </div>
+
+                        <img id="img1" src="/Code/images/Group 54.png" alt="">
+                        <img id="img2" src="/Code/images/Group 61.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
+
 </html>
